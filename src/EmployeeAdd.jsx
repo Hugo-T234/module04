@@ -11,7 +11,7 @@ export default class EmployeeAdd extends React.Component {
         const employee = {
             name: form.name.value,
             extension: form.ext.value,
-            email: form.email.valuie,
+            email: form.email.value,
             title: form.title.value,
         }
         this.props.createEmployee(employee)
